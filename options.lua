@@ -1,4 +1,5 @@
 -- set vim options here (vim.<first_key>.<second_key> = value)
+
 return {
   opt = {
     -- set to true or false etc.
@@ -19,6 +20,7 @@ return {
     resession_enabled = false, -- enable experimental resession.nvim session management (will be default in AstroNvim v4)
     tranparent_background = false
   },
+  
 }
 -- If you need more control, you can use the function()...end notation
 -- return function(local_vim)
