@@ -1,5 +1,10 @@
 -- set vim options here (vim.<first_key>.<second_key> = value)
-
+  vim.cmd([[
+  set shell=pwsh
+  set shellcmdflag=-command
+  set shellquote=\"
+  set shellxquote=
+  ]])
 return {
   opt = {
     -- set to true or false etc.

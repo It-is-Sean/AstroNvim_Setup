@@ -1,9 +1,4 @@
-  vim.cmd([[
-  set shell=pwsh
-  set shellcmdflag=-command
-  set shellquote=\"
-  set shellxquote=
-  ]])
+
 return {
   -- Configure AstroNvim updates
   updater = {
