@@ -4,7 +4,7 @@ return {
     "goolord/alpha-nvim",
     opts = function(_, opts)
       -- customize the dashboard header
-      opts.section.header.val = require "user.plugins.configs.start_menu_picture"
+      opts.section.header.val = require "user.pluginconfigs.start_menu_picture"
       local button = require("astronvim.utils").alpha_button
       opts.section.buttons.val = {
         button("<Leader>   n", "  New File  "),

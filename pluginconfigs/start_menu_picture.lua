@@ -60,4 +60,4 @@ local piclure_libaray = {
     "╚═╝   ╚═╝╚══════╝╚═╝╚══════╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝",
   },
 }
-return piclure_libaray["Aperture_Science_Atomic"]
+return piclure_libaray["It_is_Sean"]

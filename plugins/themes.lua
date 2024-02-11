@@ -4,7 +4,7 @@ return {
     "folke/tokyonight.nvim",
     lazy = false,
     priority = 1000,
-    opts = require "user.plugins.configs.tokyonight",
+    opts = require "user.pluginconfigs.tokyonight",
   },
   {
     "projekt0n/github-nvim-theme",
