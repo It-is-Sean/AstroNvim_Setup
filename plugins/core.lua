@@ -7,7 +7,7 @@ return {
       opts.section.header.val = require "user.pluginconfigs.start_menu_picture"
       local button = require("astronvim.utils").alpha_button
       opts.section.buttons.val = {
-        button("<Leader>   n", "  New File  "),
+        button("<Leader>  n ", "  New File  "),
         button("<Leader> f f", "  Find File  "),
         button("<Leader> f o", "󰈙  Recents  "),
         button("<Leader> f w", "󰈭  Find Word  "),
