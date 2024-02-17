@@ -34,9 +34,16 @@ return {
     ["<C-s>"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
     --CRAG666/code_runner.nvim
     ["<leader>r"] = { ":RunCode<CR>", desc = "Run Code" },
+    --undo
+    ["<C-z>"] = { "u" },
+    --copy
+    ["<C-c>"] = { "y" },
   },
   t = {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
+  },
+  v = {
+    ["<C-c>"] = { "y" },
   },
 }
