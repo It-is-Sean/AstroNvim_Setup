@@ -36,8 +36,8 @@ return {
     ["<leader>r"] = { ":RunCode<CR>", desc = "Run Code" },
     --undo
     ["<C-z>"] = { "u" },
-    --copy
-    ["<C-c>"] = { "y" },
+    --tabout
+    --["<TAB>"] = { "%l" },
   },
   t = {
     -- setting a mapping to false will disable it

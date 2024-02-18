@@ -1,5 +1,4 @@
 return {
-
   -- Configure AstroNvim updates
   updater = {
     remote = "origin", -- remote to use
