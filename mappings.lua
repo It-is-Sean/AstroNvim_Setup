@@ -46,4 +46,10 @@ return {
   v = {
     ["<C-c>"] = { "y" },
   },
+  i = {
+    --undo
+    ["<C-z>"] = { "<Cmd>undo<CR>" },
+    --quick save
+    ["<C-s>"] = { "<Cmd>w!<cr>" }, -- change description but the same command
+  },
 }
