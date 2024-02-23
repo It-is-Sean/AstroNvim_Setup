@@ -36,8 +36,8 @@ return {
     ["<leader>r"] = { ":RunCode<CR>", desc = "Run Code" },
     --undo
     ["<C-z>"] = { "u" },
-    --copy
-    ["<C-c>"] = { "y" },
+    --tabout
+    --["<TAB>"] = { "%l" },
   },
   t = {
     -- setting a mapping to false will disable it
@@ -45,5 +45,11 @@ return {
   },
   v = {
     ["<C-c>"] = { "y" },
+  },
+  i = {
+    --undo
+    ["<C-z>"] = { "<Cmd>undo<CR>" },
+    --quick save
+    ["<C-s>"] = { "<Cmd>w!<cr>" }, -- change description but the same command
   },
 }
