@@ -33,7 +33,7 @@ return {
     --quick save
     ["<C-s>"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
     --CRAG666/code_runner.nvim
-    ["<leader>r"] = { ":RunCode<CR>", desc = "Run Code" },
+    -- ["<leader>r"] = { ":RunCode<CR>", desc = "Run Code" },
     --undo
     ["<C-z>"] = { "u" },
     --tabout
